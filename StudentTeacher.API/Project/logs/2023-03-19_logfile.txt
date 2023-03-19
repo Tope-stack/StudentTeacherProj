@@ -1,0 +1,3 @@
+2023-03-19 09:36:27.0412 INFO Teacher with id; 12 doesn't exist in the database
+2023-03-19 09:37:27.0810 INFO Teacher with id: 12 doesn't exist in the database.
+2023-03-19 09:37:51.6268 INFO Student with id: 12 doesn't exist in the database. 

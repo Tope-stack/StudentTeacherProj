@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.AssemblyInfo.cs
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\bin\Debug\net6.0\StudentTeacher.Repo.deps.json
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\bin\Debug\net6.0\StudentTeacher.Repo.runtimeconfig.json
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\bin\Debug\net6.0\StudentTeacher.Repo.dll
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\bin\Debug\net6.0\StudentTeacher.Repo.pdb
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\bin\Debug\net6.0\StudentTeacher.Core.dll
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\bin\Debug\net6.0\StudentTeacher.Core.pdb
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.csproj.CopyComplete
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.dll
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\refint\StudentTeacher.Repo.dll
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.pdb
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\StudentTeacher.Repo.genruntimeconfig.cache
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.Repo\obj\Debug\net6.0\ref\StudentTeacher.Repo.dll
