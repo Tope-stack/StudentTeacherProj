@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentTeacher.Core.Mappings;
+using StudentTeacher.Core.Models;
 using StudentTeacher.Repo.Data;
 using StudentTeacher.Service.Filters.ActionFilters;
 using StudentTeacher.Service.Interfaces;
@@ -29,6 +31,7 @@ namespace StudentTeacher.API.Extensions
             {
                 map.AddProfile<TeacherMappingProfile>();
                 map.AddProfile<StudentMappingProfile>();
+                map.AddProfile<UserMappingProfile>();
             });
 
             services.AddSingleton(mapperConfig.CreateMapper());
@@ -47,6 +50,20 @@ namespace StudentTeacher.API.Extensions
 
         //Add Here
         public static void ConfigureResponseCaching(this IServiceCollection services) => services.AddResponseCaching();
+
+        public static void ConfigureIdentity(this IServiceCollection services)
+        {
+            var builder = services.AddIdentity<User, IdentityRole>(o =>
+            {
+                o.Password.RequireDigit = false;
+                o.Password.RequireLowercase = false;
+                o.Password.RequireUppercase = false;
+                o.Password.RequireNonAlphanumeric = false;
+                o.User.RequireUniqueEmail = true;
+            })
+                .AddEntityFrameworkStores<RepositoryContext>()
+                .AddDefaultTokenProviders();
+        }
 
         public static void RegisterDependencies(this IServiceCollection services)
         {

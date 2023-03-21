@@ -11,6 +11,7 @@ namespace StudentTeacher.Service.Interfaces
     {
         ITeacherRepository Teacher { get; }
         IStudentRepository Student { get; }
+        IUserAuthenticationRepository UserAuthentication { get; }
         Task SaveAsync();
     }
 }
