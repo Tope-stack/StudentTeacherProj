@@ -16,6 +16,7 @@ namespace StudentTeacher.Service.Services
     public class RepositoryManager : IRepositoryManager
     {
         private RepositoryContext _repositoryContext;
+
         private ITeacherRepository _teacherRepository;
         private IStudentRepository _studentRepository;
         private IUserAuthenticationRepository _userAuthenticationRepository;

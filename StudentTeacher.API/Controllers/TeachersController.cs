@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StudentTeacher.Core.Dtos;
 using StudentTeacher.Core.Models;
@@ -34,6 +35,8 @@ namespace StudentTeacher.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
+        //[ResponseCache(CacheProfileName = "30SecondsCaching")]
         public async Task<IActionResult> GetTeachers()
         {
             try

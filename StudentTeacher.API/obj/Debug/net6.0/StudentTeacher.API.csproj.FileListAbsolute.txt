@@ -94,3 +94,4 @@ C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.API\bin\Debug\net6.0
 C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.API\obj\Debug\net6.0\StudentTeacher.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Desktop\.NETAPI\StudentTeacher\StudentTeacher.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

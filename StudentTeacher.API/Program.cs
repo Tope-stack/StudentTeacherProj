@@ -6,6 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 LoggerManager logger = new LoggerManager();
+
+builder.Services.ConfigureResponseCaching();
+
 // Add services to the container.
 builder.Services.RegisterDependencies();
 builder.Services.ConfigureMapping();
@@ -16,10 +19,14 @@ builder.Services.ConfigureRepositoryManager();
 
 builder.Services.AddAuthentication();
 builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+
+builder.Services.ConfigureSwaggerGen();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
