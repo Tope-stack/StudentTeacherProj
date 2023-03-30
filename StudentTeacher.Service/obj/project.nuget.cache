@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n/ENdMXudcvrncaWfOffENhiUWGePzdhpz2NxcgaSwFMNta34VyfDDqwS2GND6dQGtPqm1EHOkY+emQhH0wBbA==",
+  "dgSpecHash": "a9VDjyPA/mYp/cfbA5WegbSMKugEpOmx5hFlAkDAXGy7ggvaIzId/Sx4yyWI6fatzsWp34wF9f6De73//rVHqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.Service\\StudentTeacher.Service.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.Service\\StudentTeacher.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

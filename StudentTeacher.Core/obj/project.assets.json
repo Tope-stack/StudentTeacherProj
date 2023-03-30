@@ -3723,11 +3723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.Core\\StudentTeacher.Core.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.Core\\StudentTeacher.Core.csproj",
       "projectName": "StudentTeacher.Core",
-      "projectPath": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.Core\\StudentTeacher.Core.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.Core\\StudentTeacher.Core.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.Core\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

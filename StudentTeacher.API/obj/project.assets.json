@@ -4729,11 +4729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.API\\StudentTeacher.API.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.API\\StudentTeacher.API.csproj",
       "projectName": "StudentTeacher.API",
-      "projectPath": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.API\\StudentTeacher.API.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.API\\StudentTeacher.API.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.API\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4750,8 +4750,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.Service\\StudentTeacher.Service.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\.NETAPI\\StudentTeacher\\StudentTeacher.Service\\StudentTeacher.Service.csproj"
+            "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.Service\\StudentTeacher.Service.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\CQRS&OnionPattern\\StudentTeacher\\StudentTeacher.Service\\StudentTeacher.Service.csproj"
             }
           }
         }

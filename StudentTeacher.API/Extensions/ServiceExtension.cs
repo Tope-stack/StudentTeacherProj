@@ -30,6 +30,7 @@ namespace StudentTeacher.API.Extensions
 
         public static void ConfigureMapping(this IServiceCollection services)
         {
+            #region MAPPINGS
             services.Configure<ApiBehaviorOptions>(options => { options.SuppressModelStateInvalidFilter = true; });
             var mapperConfig = new MapperConfiguration(map =>
             {
@@ -39,10 +40,13 @@ namespace StudentTeacher.API.Extensions
             });
 
             services.AddSingleton(mapperConfig.CreateMapper());
+
+            #endregion
         }
         //Add Here
         public static void ConfigureControllers(this IServiceCollection services)
         {
+            #region CONTROLLERS
             services.AddControllers(config =>
             {
                 config.CacheProfiles.Add("30SecondsCaching", new CacheProfile
@@ -50,6 +54,7 @@ namespace StudentTeacher.API.Extensions
                     Duration = 30
                 });
             });
+            #endregion
         }
 
         //Add Here
@@ -57,6 +62,7 @@ namespace StudentTeacher.API.Extensions
 
         public static void ConfigureIdentity(this IServiceCollection services)
         {
+            #region IDENTITY
             var builder = services.AddIdentity<User, IdentityRole>(o =>
             {
                 o.Password.RequireDigit = false;
@@ -67,10 +73,12 @@ namespace StudentTeacher.API.Extensions
             })
                 .AddEntityFrameworkStores<RepositoryContext>()
                 .AddDefaultTokenProviders();
+            #endregion
         }
 
         public static void ConfigureJWT(this IServiceCollection services, IConfiguration configuration)
         {
+            #region JWT
             var jwtConfig = configuration.GetSection("jwtConfig");
             var secretKey = jwtConfig["secret"];
             services.AddAuthentication(opt =>
@@ -91,10 +99,13 @@ namespace StudentTeacher.API.Extensions
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
                 };
             });
+
+            #endregion
         }
 
         public static void ConfigureSwaggerGen(this IServiceCollection services)
         {
+            #region SWAGGERGEN
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -133,13 +144,17 @@ namespace StudentTeacher.API.Extensions
                     }
                 });
             });
+            #endregion
         }
 
         public static void RegisterDependencies(this IServiceCollection services)
         {
+            #region DEPENDENCIES
             services.AddScoped<ValidationFilterAttribute>();
             services.AddScoped<ValidateTeacherExists>();
             services.AddScoped<ValidateStudentExistsForTeacher>();
+
+            #endregion
         }
 
     }
